@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temporizador estilo pomodoro">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icon/pomodoro.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/2f087bc852.js" crossorigin="anonymous"></script>
+    <script src="js/index.js" defer type="module"></script>
+    <title>FocusTimer - Pomodoro</title>
+</head>
+
+<body>
+    <main>
+        <div id="timer">
+            <span class="minutes">25</span>
+            <span>:</span>
+            <span class="seconds">00</span>
+        </div>
+
+        <div id="controls">
+            <button class="play">
+                <img src="https://img.icons8.com/arcade/64/000000/experimental-circled-play-arcade.png" />
+            </button>
+            <button class="pause hide">
+                <img src="https://img.icons8.com/arcade/64/000000/experimental-circled-pause-arcade.png" />
+            </button>
+            <button class="stop hide">
+                <img src="https://img.icons8.com/arcade/64/000000/experimental-stop-circled-arcade.png" />
+            </button>
+            <button class="set ">
+                <img src="https://img.icons8.com/glyph-neue/64/22C3E6/time--v1.png" />
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <button class="sound-on">
+            <img src="https://img.icons8.com/arcade/64/000000/experimental-high-volume-arcade.png" />
+        </button>
+        <button class="sound-off hide">
+            <img src="https://img.icons8.com/arcade/64/000000/experimental-mute-arcade.png" />
+        </button>
+    </footer>
+</body>
+
+</html>
